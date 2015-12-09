@@ -38,7 +38,7 @@ public class Dijkstra {
 					if(nodes[key].node_cost > tmp) {
 						nodes[key].node_cost = tmp;
 						nodes[key].prev_node = node;
-					}
+					}/Users/takahiro/Desktop/procon_juku/Study04/Dijkstra.scala
 					p_queue.enqueue(nodes[key]);
 				}
 			}
